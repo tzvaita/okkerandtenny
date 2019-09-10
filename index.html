@@ -1,5 +1,47 @@
 <html>
+    <head>
+            <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css" />
+
+    </head>
+<style> @media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+        
+}
+
+#welcome-section{
+    padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+        }
+
+        #navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  #navbar li  {
+    float:left;
+    
+}
+  #navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+            </style>
+
 <body>
+
 
 <div id="welcome-section">
     <h1>Some text</h1>
@@ -9,9 +51,15 @@
     <p class="project-tile"><a href="">https://github.com/johnspeny/okker_tennyson</a></p>
 </div>
 
-<nav>
-
+<nav id = "navbar">
+    <ul>
+    <li><a href = "#projects">projects</a></li>
+    </ul>
 </nav>
 
+<a href="https://github.com/johnspeny/okker_tennyson" id="profile-link" target = "_blank" rel = "noopener noreferrer"> link</a>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
